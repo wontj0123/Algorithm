@@ -1,6 +1,6 @@
 import sys
 from os import kill
-sys.stdin=open("input.txt","rt")
+sys.stdin=open("input.txt", "rt")
 n,k = map(int,input().split())
 result=0
 while True:

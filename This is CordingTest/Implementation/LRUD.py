@@ -1,6 +1,6 @@
 import sys
 from os import kill
-sys.stdin=open("LRUD.txt","rt")
+sys.stdin=open("LRUD.txt", "rt")
 n=int(input())
 x,y = 1 , 1
 plans = input().split()

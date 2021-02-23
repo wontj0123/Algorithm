@@ -1,7 +1,7 @@
 import sys
 from os import kill
 
-sys.stdin=open("input.txt","rt")
+sys.stdin=open("input.txt", "rt")
 n,m,k = map(int,input().split())# 변수개수, 덧셈 횟수, 연속 회수
 data = list(map(int,input().split()))
 data.sort()
