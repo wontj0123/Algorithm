@@ -1,7 +1,7 @@
 from collections import deque
 import sys
 
-sys.stdin=open("DFS-p154.txt","rt")
+sys.stdin=open("DFS-p154.txt", "rt")
 
 # N, M을 공백을 기준으로 구분하여 입력 받기
 n, m = map(int, input().split())

@@ -1,6 +1,6 @@
 import sys
 from os import kill
-sys.stdin=open("sort-180.txt","rt", encoding='UTF8')
+sys.stdin=open("sort-180.txt", "rt", encoding='UTF8')
 
 
 # N 입력 받기

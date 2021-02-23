@@ -1,6 +1,6 @@
 import sys
 from os import kill
-sys.stdin=open("up_side_down.txt","rt")
+sys.stdin=open("up_side_down.txt", "rt")
 #N을 입력받기
 n= int(input())
 
