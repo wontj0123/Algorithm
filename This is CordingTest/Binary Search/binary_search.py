@@ -2,6 +2,8 @@ import sys
 from os import kill
 sys.stdin=open("binary_search.txt", "rt")
 
+#page 189 재귀함수로 구현한 이진 탐색 소스코드
+
 # 이진 탐색 소스코드 구현 (재귀 함수)
 def binary_search(array, target, start, end):
     if start > end:
