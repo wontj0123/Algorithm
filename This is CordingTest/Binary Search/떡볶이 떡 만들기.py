@@ -1,6 +1,7 @@
 import sys
 from os import kill
 sys.stdin=open("떡볶이 떡 만들기.txt", "rt")
+#page 205 이진탐색을 이용한 떡볶이 떡 만들기
 n, m =map(int,input().split())
 print(n,m)
 arr = list(map(int,input().split()))
