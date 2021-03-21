@@ -1,6 +1,5 @@
 import heapq
 import sys
-sys.stdin=open("dijkstra.txt", "rt")
 input = sys.stdin.readline
 INF = int(1e9) # 무한을 의미하는 값으로 10억을 설정
 
