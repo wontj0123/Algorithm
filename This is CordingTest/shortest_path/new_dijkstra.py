@@ -1,5 +1,6 @@
 import heapq
 import sys
+sys.stdin=open("dijkstra.txt", "rt")
 input = sys.stdin.readline
 INF = int(1e9) # 무한을 의미하는 값으로 10억을 설정
 
@@ -17,6 +18,7 @@ for _ in range(m):
     a, b, c = map(int, input().split())
     # a번 노드에서 b번 노드로 가는 비용이 c라는 의미
     graph[a].append((b, c))
+    print(graph)
 
 def dijkstra(start):
     q = []
