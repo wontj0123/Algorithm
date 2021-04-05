@@ -1,5 +1,7 @@
 from collections import deque
 import copy
+import sys
+sys.stdin = open("커리큘럼.txt","rt")
 
 #노드의 개수 입력받기
 v = int(input())
