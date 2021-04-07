@@ -3,7 +3,7 @@ sys.stdin = open("문자열 뒤집기.txt","rt")
 
 data = input()
 count0 = 0#전부 0으로 바꾸는 경우
-count1 = 1#전부 1으로 바꾸는 경우
+count1 = 0#전부 1으로 바꾸는 경우
 
 #첫 번째 원소에 대해서 처리
 if data[0] == '1':
