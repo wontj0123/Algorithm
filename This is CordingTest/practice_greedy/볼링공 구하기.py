@@ -1,3 +1,5 @@
+import sys
+sys.stdin = open("볼링공 구하기.txt","rt")
 n, m = map(int, input().split())
 data = list(map(int, input().split()))
 
