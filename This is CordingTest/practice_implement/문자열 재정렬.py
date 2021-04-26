@@ -1,3 +1,5 @@
+import sys
+sys.stdin = open("문자열 재정렬.txt","rt")
 data = input()
 result = []
 value = 0
